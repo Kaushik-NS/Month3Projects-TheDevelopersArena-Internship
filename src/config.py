@@ -1,5 +1,3 @@
-import os
-
 API_KEY = "b01fff9b61e5d2d2dc75db95fcf73ebb"
 
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
@@ -15,11 +13,7 @@ CITIES = [
 
 DB_NAME = "weather_data.db"
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
-LOG_FILE = os.path.join(BASE_DIR, "logs", "pipeline.log")
-
-#LOG_FILE = "logs/pipeline.log"
+LOG_FILE = "logs/pipeline.log"
 
 TEMP_ALERT = 30
 HUMIDITY_ALERT = 75
