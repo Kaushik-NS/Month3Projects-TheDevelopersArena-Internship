@@ -1,0 +1,6 @@
+requests
+pandas
+matplotlib
+schedule
+reportlab
+pytz
